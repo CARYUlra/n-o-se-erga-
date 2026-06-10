@@ -1,6 +1,6 @@
-# 📊 Lógica com Vetores e Índices em JavaScript
+# 📈 Manipulação Avançada de Vetores em JavaScript
 
-> Resolução de algoritmos focados em estruturação de vetores (arrays), varredura de dados por índices e cálculos matemáticos básicos. Tudo isso desenvolvido com lógica pura e versionado via Git.
+> Resolução de algoritmos focados em busca de extremos (maior/menor), filtragem condicional multivetorial e estruturas de repetição com parada dinâmica. Tudo desenvolvido em JavaScript puro e versionado com Git.
 
 ---
 
@@ -16,40 +16,45 @@
 
 ## 📖 Sobre o Projeto
 
-Este repositório armazena programas em JavaScript (extensão `.js`) desenvolvidos para solucionar problemas lógicos e matemáticos através do uso de vetores. Os códigos foram testados para garantir seu total funcionamento e precisão.
+Este repositório reúne programas em JavaScript (extensão `.js`) projetados para resolver problemas de lógica de programação que envolvem o armazenamento, a busca e a filtragem de dados estruturados em vetores. Todos os programas foram rigorosamente testados para garantir o comportamento esperado.
 
-O versionamento dos arquivos foi uma etapa obrigatória do desenvolvimento, mantendo o histórico de commits tanto localmente quanto de forma remota.
+O projeto também cumpre a função de fixar as boas práticas de **controle de versão**, com commits estruturados no repositório local e sincronizados com o repositório remoto via Git.
 
 ---
 
 ## ⚠️ Restrições e Objetivos
 
-O grande foco desta atividade é trabalhar a **lógica de programação estruturada**. 
+Assim como nas etapas anteriores, o foco central é o aprimoramento da lógica algorítmica fundamental. 
 
-Por isso, **é proibido o uso de funções nativas de manipulação de arrays** do JavaScript (como `.reduce()`, `.indexOf()`, `.forEach()`, etc.). Toda a inserção de dados, soma, cálculo de médias e busca de posições foram feitas manualmente utilizando estruturas de repetição tradicionais (como o laço `for`).
+Por este motivo, **não foi utilizada nenhuma função nativa de manipulação de arrays** do JavaScript (como `.push()`, `.filter()`, `Math.max()`, etc.). A inserção de elementos, o controle do tamanho dos vetores e a comparação de valores foram implementados de forma manual através de variáveis de controle, índices e laços como `for` e `while`.
 
 ---
 
 ## 📝 Lista de Tarefas
 
-Nesta etapa, os seguintes algoritmos foram desenvolvidos:
+Os seguintes algoritmos foram desenvolvidos nesta etapa:
 
-### 1. Cálculo de Média de Idades
-Cria um programa que lê a idade de 8 pessoas e as armazena em um vetor. Ao final da leitura e armazenamento, o script realiza a soma e exibe a **média de idade** das pessoas cadastradas.
+### 1. Maior Idade e Posição
+Programa que lê a idade de 4 pessoas e as armazena em um vetor. Ao final da leitura, o algoritmo varre a estrutura para identificar e exibir:
+* Qual foi a **maior idade** digitada.
+* Em **qual posição (índice)** do vetor essa maior idade foi armazenada.
 
-### 2. Busca por Posição (Maiores de 25)
-Programa que lê a idade de 7 pessoas e as guarda em um vetor. Ao final, varre o vetor e exibe **em quais posições (índices)** do array foram cadastradas as pessoas que possuem mais de 25 anos de idade.
+### 2. Filtro de Funcionárias (Vetores Paralelos)
+Algoritmo que lê o nome, o sexo e o salário de 5 funcionários, distribuindo esses dados em **três vetores mapeados pelo mesmo índice**. Ao final, o programa exibe uma listagem filtrada contendo apenas os dados das **funcionárias mulheres que ganham mais de R$ 5.000,00**.
 
-### 3. Múltiplos de 10
-Script que lê 15 números inteiros e os guarda em um vetor. O resultado final mostra o **vetor completo** na tela e, logo em seguida, lista **em quais posições** foram digitados os valores que são múltiplos de 10 (onde o resto da divisão por 10 é igual a zero).
+### 3. Cadastro Dinâmico de Alturas (Parada Solicitada)
+Um programa interativo que coleta nomes e alturas de pessoas e as armazena. Diferente dos anteriores, este programa **permite que o usuário insira quantos dados desejar**, utilizando uma condição de parada manual (ex: digitar "sair" ou responder "não"). 
+Ao encerrar, o script analisa os dados e exibe:
+* A **maior altura** e o nome de quem a possui.
+* A **menor altura** e o nome de quem a possui.
 
 ---
 
 ## 💻 Tecnologias Utilizadas
 
-* **JavaScript:** Construção dos algoritmos e manipulação da memória.
-* **Git e GitHub:** Controle de versão e hospedagem do código.
-* **Node.js / Navegador:** Ambientes para testes e execução dos códigos.
+* **JavaScript:** Construção de algoritmos lógicos e controle manual de memória/vetores.
+* **Git e GitHub:** Ferramentas para controle de versão e hospedagem do código-fonte.
+* **Node.js / Navegador:** Ambientes utilizados para rodar e homologar os testes dos scripts.
 
 ---
 
