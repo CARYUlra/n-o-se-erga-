@@ -62,7 +62,6 @@ Para rodar os algoritmos e verificar seus resultados, você pode usar o terminal
 $ git clone https://github.com/CARYUlra/n-o-se-erga-.git
 # Entre na pasta do projeto
 $ cd n-o-se-erga-
-
 # Execute o arquivo de uma tarefa específica (exemplo: tarefa 3)
 $ code .
 ````
