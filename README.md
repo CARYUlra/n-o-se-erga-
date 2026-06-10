@@ -59,10 +59,12 @@ Para rodar os algoritmos e verificar seus resultados, você pode usar o terminal
 
 ```bash
 # Clone o repositório para a sua máquina
-$ git clone [https://github.com/seu-usuario/nome-do-repositorio.git](https://github.com/seu-usuario/nome-do-repositorio.git)
-
+$ git clone https://github.com/CARYUlra/n-o-se-erga-.git
 # Entre na pasta do projeto
-$ cd nome-do-repositorio
+$ cd n-o-se-erga-
 
 # Execute o arquivo de uma tarefa específica (exemplo: tarefa 3)
-$ node tarefa3.js
+$ code .
+````
+<img width="1000" height="500" alt="KingdomHeartsKingdomHearts2GIF" src="https://github.com/user-attachments/assets/f147caaa-7731-4868-a383-5600a9753173" />
+
